@@ -1,0 +1,134 @@
+/* ============================================
+   自定义样式 - 水蓝色系
+   文件位置：source/css/custom.css
+   注意：主题更新不会覆盖此文件
+   ============================================ */
+
+/* ---------- 1. 浅色模式变量 ---------- */
+:root {
+  --theme: #5bc0de;
+  --theme-op: rgba(91, 192, 222, 0.1);
+  --hover-color: #3da8c4;
+
+  --font-color: #4a5568;
+  --font-color-dark: #2d3748;
+  --second-text-color: #718096;
+
+  --body-bg: #f7fbfc;
+  --card-bg: #ffffff;
+  --sidebar-bg: #ffffff;
+
+  --hr-border-color: rgba(91, 192, 222, 0.25);
+  --border-color: #e2e8f0;
+
+  --code-bg: #f0f9fc;
+  --code-color: #2c5f70;
+
+  --selection-bg: rgba(91, 192, 222, 0.3);
+  --scrollbar-color: #5bc0de;
+}
+
+/* ---------- 2. 深色模式变量 ---------- */
+/* 若你的主题深色选择器不是 data-theme，请按实际改 */
+[data-theme="dark"] {
+  --theme: #6dd5ed;
+  --theme-op: rgba(109, 213, 237, 0.12);
+  --hover-color: #8ce0f0;
+
+  --font-color: #cbd5e0;
+  --font-color-dark: #e2e8f0;
+  --second-text-color: #a0aec0;
+
+  --body-bg: #0f1923;
+  --card-bg: #1a2634;
+  --sidebar-bg: #1a2634;
+
+  --hr-border-color: rgba(109, 213, 237, 0.2);
+  --border-color: #2d3e50;
+
+  --code-bg: #16202d;
+  --code-color: #90cdf4;
+
+  --selection-bg: rgba(109, 213, 237, 0.25);
+  --scrollbar-color: #6dd5ed;
+}
+
+/* ---------- 3. 文字与排版 ---------- */
+#article-container p {
+  line-height: 1.9;
+}
+
+.post-title, .article-title {
+  letter-spacing: 1px;
+}
+
+#subtitle, .subtitle {
+  letter-spacing: 2px;
+}
+
+/* 选中文字高亮 */
+::selection {
+  background: var(--selection-bg);
+}
+
+/* ---------- 4. 链接与交互 ---------- */
+a:hover {
+  color: var(--hover-color);
+}
+
+/* 搜索框聚焦 */
+#search-input:focus {
+  border-color: var(--theme);
+  box-shadow: 0 0 0 3px var(--theme-op);
+}
+
+/* 打字机光标跟随主色 */
+.typed-cursor {
+  color: var(--theme);
+}
+
+/* ---------- 5. 卡片与圆角阴影 ---------- */
+.post-card, .card-widget {
+  border-radius: 12px;
+}
+
+#article-container img {
+  border-radius: 8px;
+}
+
+.post-card {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 6px 20px rgba(91, 192, 222, 0.18);
+  transform: translateY(-3px);
+}
+
+/* 深色模式阴影减弱，避免发脏 */
+[data-theme="dark"] .post-card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- 6. 组件细节 ---------- */
+/* 标签/分类悬停 */
+.tag-cloud-list a:hover,
+.category-list a:hover {
+  background: var(--theme-op);
+  color: var(--theme);
+}
+
+/* 分页当前页 */
+.pagination .page-number.current {
+  background: var(--theme);
+  border-color: var(--theme);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+  border-radius: 6px;
+}
+
+

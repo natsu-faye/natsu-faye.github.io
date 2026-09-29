@@ -1,0 +1,36 @@
+# =====================
+# 导航菜单
+# =====================
+
+menu:
+  首页: / || fas fa-home
+  博客 || fas fa-blog:
+    归档: /archives/ || fas fa-archive
+    分类: /categories/ || fas fa-folder-open
+    标签: /tags/ || fas fa-tags
+  友链: /link/ || fas fa-link
+  留言板: /messageboard/ || fas fa-paper-plane
+  关于: /about/ || fas fa-heart
+
+# =====================
+# 站内搜索
+# =====================
+search:
+  use: local_search
+  placeholder: 搜索一下叭～（虽然还什么都没有><)
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+
+
+
+
+# =====================
+# 社交链接
+# =====================
+social:
+  fas fa-envelope: mailto:natsu_ame.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/natsu_faye || GitHub || '#24292e'
+  fab fa-qq: https://wpa.qq.com/msgrd?u=3763786307 || QQ || '#87CEEB'
+  fas fa-rss: /atom.xml || RSS订阅 || '#f26522'
