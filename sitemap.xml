@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://natsu-faye.github.io/messageboard/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/link/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/music/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/2026/09/30/Hexo-Butterfly-APlayer-Meting%E6%92%AD%E6%94%BE%E5%99%A8%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%8E%92%E9%94%99%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/2026/09/30/Markdown-%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/2026/09/30/hello-world/</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/2026/09/29/initial%20attempt/</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/about/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/categories/index.html</loc>
+    
+    <lastmod>2026-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://natsu-faye.github.io/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/Hexo/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/APlayer/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/Meting/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/%E6%8E%92%E9%94%99/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/Markdown/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://natsu-faye.github.io/categories/%E5%8D%9A%E5%AE%A2%E4%B8%8E%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://natsu-faye.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
