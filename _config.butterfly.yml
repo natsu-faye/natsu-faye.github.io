@@ -11,6 +11,7 @@ menu:
   友链: /link/ || fas fa-link
   留言板: /messageboard/ || fas fa-paper-plane
   关于: /about/ || fas fa-heart
+  音乐: /music/ || fas fa-headphones
 
 # =====================
 # 站内搜索
@@ -83,7 +84,16 @@ subtitle:
     - "トゥットゥルー〜☆"
 
 
+# =====================
+# ccs?
+# =====================
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
   bottom: []
+
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true

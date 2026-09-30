@@ -100,10 +100,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: "git@github.com:natsu-faye/natsu-faye.github.io.git"
-  branch: main
+
 
 #Search
 search:
@@ -120,3 +117,9 @@ feed:
   hub:
   content: false
   content_limit: 140
+
+# APlayer 音乐播放器
+aplayer:
+  meting: true
+  asset_inject: true
+  meting_api: "https://api.injahow.cn/meting/"
