@@ -262,6 +262,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2026/09/30/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>initial attempt</title>
+    <url>/2026/09/29/initial%20attempt/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="应该"><a href="#应该" class="headerlink" title="应该"></a>应该</h2><h3 id="怎么写呢……"><a href="#怎么写呢……" class="headerlink" title="怎么写呢……^ ^"></a>怎么写呢……^ ^</h3><p>原来搭建一个个人博客要做这么多事情……<br>前几天看着各种教程<strong>焦虑</strong>得不行&gt;&lt;<br>现在一步一步改着网页的配置<br>看着属于自己的部分慢慢变多<br>心情终究还是<strong>舒缓</strong>下来了~</p>
+<p><em>好吧可能只是拖延症犯了orz</em></p>
+<p>有序无序列表项、链接、图片描述文字和引用什么的等我下次来~！</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown 语法速查</title>
     <url>/2026/09/30/Markdown-%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="标题层级"><a href="#标题层级" class="headerlink" title="标题层级"></a>标题层级</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
@@ -430,38 +462,6 @@
       <tags>
         <tag>Markdown</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2026/09/30/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>initial attempt</title>
-    <url>/2026/09/29/initial%20attempt/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="应该"><a href="#应该" class="headerlink" title="应该"></a>应该</h2><h3 id="怎么写呢……"><a href="#怎么写呢……" class="headerlink" title="怎么写呢……^ ^"></a>怎么写呢……^ ^</h3><p>原来搭建一个个人博客要做这么多事情……<br>前几天看着各种教程<strong>焦虑</strong>得不行&gt;&lt;<br>现在一步一步改着网页的配置<br>看着属于自己的部分慢慢变多<br>心情终究还是<strong>舒缓</strong>下来了~</p>
-<p><em>好吧可能只是拖延症犯了orz</em></p>
-<p>有序无序列表项、链接、图片描述文字和引用什么的等我下次来~！</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
