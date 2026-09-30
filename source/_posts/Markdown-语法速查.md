@@ -3,7 +3,7 @@ title: Markdown 语法速查
 date: 2026-09-30 07:45:04
 tags: [Markdown, 笔记]
 categories:
-  - 语法
+  - 博客与工具
 ---
 
 ## 标题层级
