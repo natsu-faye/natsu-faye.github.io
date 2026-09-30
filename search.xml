@@ -1,24 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>initial attempt</title>
-    <url>/2026/09/29/initial%20attempt/</url>
-    <content><![CDATA[<p>#Markdown<br>##应该<br>###怎么写呢……^ ^</p>
-<p>原来搭建一个个人博客要做这么多事情……<br>前几天看着各种教程<strong>焦虑</strong>得不行&gt;&lt;<br>现在一步一步改着网页的配置<br>看着属于自己的部分慢慢变多<br>心情终究还是<strong>舒缓</strong>下来了~</p>
-<p><em>好吧可能只是拖延症犯了orz</em></p>
-<p>有序无序列表项、链接、图片描述文字和引用什么的等我下次来~！</p>
+    <title>Markdown 语法速查</title>
+    <url>/2026/09/30/Markdown-%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="标题层级"><a href="#标题层级" class="headerlink" title="标题层级"></a>标题层级</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
+<li>无序项一</li>
+<li>无序项二<ul>
+<li>嵌套子项</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有序项一</li>
+<li>有序项二</li>
+</ol>
+<ul>
+<li><input disabled="" type="checkbox"> 未完成任务</li>
+<li><input checked="" disabled="" type="checkbox"> 已完成任务</li>
+</ul>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>APlayer</td>
+<td>音乐播放器</td>
+<td>👌已配置</td>
+</tr>
+</tbody></table>
+<p>p.s.</p>
+<ul>
+<li>表头下方的分隔行 | — | — | — | 必须存在!列数要和表头一致</li>
+<li>想让某列居中或右对齐，可以在分隔行里加冒号：:— 左对齐、:—: 居中、—: 右对齐</li>
+<li>单元格里如果要写真正的竖线|符号，需要转义成 |，否则表可能会乱掉！</li>
+<li>表格的一个单元格里默认不能直接回车换行，否则会被当成新的一行。如果确实需要换行，用 HTML 的 <br> 标签<ul>
+<li>示例：<table>
+<thead>
+<tr>
+<th align="center">步骤</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">排查</td>
+<td align="center">第一步：检查接口<br>第二步：检查插件<br>第三步：检查配置</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>行内代码：<code>hexo clean</code></p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
+<p>这是一段普通引用(&#x3D;^-ω-^&#x3D;)</p>
+</blockquote>
+<blockquote>
+<p>引用可以有多行，<br>换行不需要额外符号，<br>只要每行前面都带 <code>&gt;</code>。</p>
+</blockquote>
+<h3 id="嵌套引用"><a href="#嵌套引用" class="headerlink" title="嵌套引用"></a>嵌套引用</h3><blockquote>
+<p>外层引用!</p>
+<blockquote>
+<p>内层引用~<br>可以继续嵌套( *ˊᵕˋ)✩︎‧₊</p>
+</blockquote>
+</blockquote>
+<h3 id="引用里也可以放其他元素-比如列表和代码"><a href="#引用里也可以放其他元素-比如列表和代码" class="headerlink" title="引用里也可以放其他元素~比如列表和代码"></a>引用里也可以放其他元素~比如列表和代码</h3><blockquote>
+<p><strong>排查要点</strong></p>
+<ul>
+<li>先确认接口是否连通</li>
+<li>再确认插件是否支持自定义</li>
+</ul>
+<p><code>grep -r &quot;meting_api&quot; node_modules/hexo-tag-aplayer/</code></p>
+</blockquote>
+<blockquote>
+<p>p.s.引用块内部如果要分段，中间需要留一个空的 &gt; 行，否则会被合并成一段。</p>
+</blockquote>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>标准语法示意：<img src="/%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84" alt="替代文字(这个图会裂开^^)" title="可选标题"><br><img src="/images/meting-error.png" alt="Meting 请求返回的报错内容" title="网络面板响应截图"></p>
+<p><em>如果需要控制显示尺寸，可以直接用 HTML 标签：</em></p>
+<img src="/images/meting-error.png" alt="Meting 报错响应" width="600" />
+
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>写什么</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>src</code></td>
+<td>图片在站点里的路径</td>
+<td><code>/images/meting-error.png</code></td>
+</tr>
+<tr>
+<td><code>alt</code></td>
+<td>图片描述，加载失败时显示</td>
+<td><code>Meting 报错响应</code></td>
+</tr>
+<tr>
+<td><code>width</code></td>
+<td>想要的宽度（像素）</td>
+<td><code>600</code></td>
+</tr>
+</tbody></table>
+<p>p.s.</p>
+<ol>
+<li>图片文件放在 source&#x2F;images&#x2F; 下，这样路径写 &#x2F;images&#x2F;xxx.png 比较稳</li>
+<li>替代文字（方括号里）不要留空，方便日后看图找图</li>
+<li>引号里的是鼠标悬停时显示的提示~</li>
+</ol>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="普通链接：显示文字"><a href="#普通链接：显示文字" class="headerlink" title="普通链接：显示文字"></a>普通链接：<a href="URL">显示文字</a></h3><p><a href="https://hexo.io/zh-cn/">Hexo 官方文档</a><br><a href="https://github.com/metowolf/MetingJS">MetingJS 仓库</a></p>
+<h3 id="带标题的链接（有悬停提示）"><a href="#带标题的链接（有悬停提示）" class="headerlink" title="带标题的链接（有悬停提示）"></a>带标题的链接（有悬停提示）</h3><p><a href="https://hexo.io/zh-cn/" title="Hexo 中文文档首页">Hexo 官方文档</a></p>
+<h3 id="站内文章互链（这里推荐用相对路径或者-Hexo-的标签-）"><a href="#站内文章互链（这里推荐用相对路径或者-Hexo-的标签-）" class="headerlink" title="站内文章互链（这里推荐用相对路径或者 Hexo 的标签~）"></a>站内文章互链（这里推荐用相对路径或者 Hexo 的标签~）</h3><p><a href="/2026/09/30/Markdown-%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/">本篇：Markdown 语法速查</a></p>
+<h3 id="引用式链接（适合同一个链接在文中出现多次）"><a href="#引用式链接（适合同一个链接在文中出现多次）" class="headerlink" title="引用式链接（适合同一个链接在文中出现多次）"></a>引用式链接（适合同一个链接在文中出现多次）</h3><p>接口文档见 <a href="https://github.com/metowolf/MetingJS">Meting</a>，插件说明见 <a href="https://aplayer.js.org/">APlayer</a>。</p>
+<h2 id="（表格书写尝试-）aplyer配置时-问题排查过程の表格"><a href="#（表格书写尝试-）aplyer配置时-问题排查过程の表格" class="headerlink" title="（表格书写尝试~）aplyer配置时 问题排查过程の表格"></a>（表格书写尝试~）aplyer配置时 问题排查过程の表格</h2><table>
+<thead>
+<tr>
+<th align="center">环节</th>
+<th align="center">操作 &#x2F; 现象</th>
+<th align="center">结论</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">接口连通性</td>
+<td align="center">浏览器直接访问 <code>api.injahow.cn/meting/?server=netease&amp;type=playlist&amp;id=18430435018</code></td>
+<td align="center">返回正常 JSON，每首歌带 <code>url</code>、<code>pic</code>、<code>lrc</code> 字段</td>
+</tr>
+<tr>
+<td align="center">插件支持确认</td>
+<td align="center"><code>grep -r &quot;meting_api&quot; node_modules/hexo-tag-aplayer/</code></td>
+<td align="center">有输出，说明支持自定义接口</td>
+</tr>
+<tr>
+<td align="center">配置注入验证</td>
+<td align="center">页面源代码搜索 <code>meting_api</code></td>
+<td align="center">第 195 行已注入，配置生效</td>
+</tr>
+<tr>
+<td align="center">异常发现</td>
+<td align="center">网络面板中该 xhr 仅 377 B，<code>Content-Type</code> 为 <code>text/html</code></td>
+<td align="center">体积异常，疑似返回错误信息而非歌单数据</td>
+</tr>
+<tr>
+<td align="center">响应内容</td>
+<td align="center"><code>{&quot;error&quot;:&quot;unknown type&quot;}</code></td>
+<td align="center">接口侧未正确识别请求</td>
+</tr>
+<tr>
+<td align="center">根因定位</td>
+<td align="center">请求 URL 中参数被拼接两遍，且 <code>auth=undefined</code></td>
+<td align="center">占位符未被替换，反而被追加到已有参数后</td>
+</tr>
+<tr>
+<td align="center">解决方案</td>
+<td align="center"><code>meting_api</code> 只填基础地址，不写 <code>:server</code> 等占位符</td>
+<td align="center">歌单正常加载，播放恢复</td>
+</tr>
+</tbody></table>
+<pre><code class="language-bash">hexo clean &amp;&amp; hexo g &amp;&amp; hexo server
+</code></pre>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>语法</category>
       </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>Markdown</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2026/09/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <url>/2026/09/30/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -32,5 +188,19 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>initial attempt</title>
+    <url>/2026/09/29/initial%20attempt/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="应该"><a href="#应该" class="headerlink" title="应该"></a>应该</h2><h3 id="怎么写呢……"><a href="#怎么写呢……" class="headerlink" title="怎么写呢……^ ^"></a>怎么写呢……^ ^</h3><p>原来搭建一个个人博客要做这么多事情……<br>前几天看着各种教程<strong>焦虑</strong>得不行&gt;&lt;<br>现在一步一步改着网页的配置<br>看着属于自己的部分慢慢变多<br>心情终究还是<strong>舒缓</strong>下来了~</p>
+<p><em>好吧可能只是拖延症犯了orz</em></p>
+<p>有序无序列表项、链接、图片描述文字和引用什么的等我下次来~！</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
 </search>
